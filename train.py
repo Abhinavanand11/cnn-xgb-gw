@@ -16,6 +16,9 @@ import xgboost as xgb  # <<<< CHANGE 1: Added XGBoost import
 
 from apply import get_coherent_network, get_coincident_network
 from apply import dtype
+import os
+print(os.environ.get("LD_LIBRARY_PATH"))
+
 
 ### Basic dataset class for easy PyTorch loading
 # [Dataset class remains UNCHANGED]
