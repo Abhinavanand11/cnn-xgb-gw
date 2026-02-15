@@ -3,6 +3,8 @@
 # Modified to train CNN-XGBoost hybrid model
 
 ### Import modules
+import os
+print(os.environ.get("LD_LIBRARY_PATH"))
 from argparse import ArgumentParser
 import logging
 import numpy as np
