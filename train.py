@@ -10,6 +10,7 @@ import logging
 import numpy as np
 import h5py
 import pycbc.waveform, pycbc.noise, pycbc.psd, pycbc.distributions, pycbc.detector
+pycbc.HAVE_CUDA = False
 import lal
 import os, os.path
 from tqdm import tqdm
