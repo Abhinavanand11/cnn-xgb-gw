@@ -9,9 +9,10 @@ from argparse import ArgumentParser
 import logging
 import numpy as np
 import h5py
-
-import pycbc.waveform, pycbc.noise, pycbc.psd, pycbc.distributions, pycbc.detector
+import pycbc
 pycbc.HAVE_CUDA = False
+import pycbc.waveform, pycbc.noise, pycbc.psd, pycbc.distributions, pycbc.detector
+
 import lal
 import os, os.path
 from tqdm import tqdm
