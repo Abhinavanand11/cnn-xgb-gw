@@ -9,6 +9,7 @@ import numpy as np
 import h5py
 import pycbc.waveform, pycbc.noise, pycbc.psd, pycbc.distributions, pycbc.detector
 import pycbc.types
+pycbc.HAVE_CUDA = False
 import os, os.path
 from tqdm import tqdm
 import multiprocessing as mp
